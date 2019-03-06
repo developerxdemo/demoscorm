@@ -1,0 +1,73 @@
+.TV_tree p{
+	font-family:arial,sans-serif;
+
+}
+.TV_tree a{
+	color:#000;
+	font-family:arial,sans-serif;
+	font-size:0.8em;
+}
+
+.TV_tree,.TV_floatingContainer{
+	margin:0px;
+	padding:0px;
+	z-index:220000;	/* You shouldn't change this value */
+}
+.TV_tree ul{	/* Sub menu groups */
+	margin-left:20px;	/* Left spacing */
+	padding-left:0px;
+	display:none;	/* Initially hide sub nodes */
+}
+
+.TV_floatingContainer ul{
+	margin-left:20px;	/* Left spacing */
+	padding-left:0px;
+}
+
+.TV_tree li a,.TV_floatingContainer li a{
+	color:#000;
+	text-decoration:none;
+	font-family: verdana,sans-serif;
+	font-size: 11px;
+	line-height:20px;
+	cursor:default;
+	background-color: transparent;
+}
+
+.TV_tree li,.TV_floatingContainer li{	/* Nodes */
+	list-style-type:none;
+	white-space: nowrap;
+	line-height: 20px;
+	vertical-align:middle;
+}
+
+.TV_tree a,.TV_floatingContainer a{
+	padding:2px;
+	margin-top:0px;
+	margin-bottom:0px;
+	vertical-align: baseline;
+}
+
+.TV_tree img,.TV_floatingContainer img{	/* Node links */
+	padding-right:2px;
+//	vertical-align:text-bottom;
+	vertical-align: baseline;
+}
+
+.TV_lastLine{
+  background-image: url(../images/trivantis-lastLine_n.gif);
+  background-repeat: no-repeat;
+  background-position: 8px top;
+}
+
+.TV_midLine{
+  background-image: url(../images/trivantis-midLine_n.gif);
+  background-repeat: no-repeat;
+  background-position: 8px top;
+}
+
+/* CSS for the imageSelection class. in case nodes in this tree are possible destination nodes for images etc. */
+.TV_tree li a.imageSelection{
+	background-color:#316AC5;
+	color:#FFF;
+}

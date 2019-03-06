@@ -1,0 +1,33 @@
+
+body{
+  background-image:url("../img/fondo.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin:100px;
+}
+
+
+
+.title{
+  font-size:2em;
+  font-family:sans-serif;
+}
+.text{
+  margin-left:20px;
+  font-family:serif;
+  color:#666;
+}
+
+a{
+  font-family:sans-serif;
+  text-decoration:none;
+  text-align:center;
+  margin-left:50px;
+  float:left;
+  display: block;
+  width:200px;
+  border:1px solid grey;
+  color:#666;
+  padding:5px 10px;
+}
+a:hover{background-color:#eee}
